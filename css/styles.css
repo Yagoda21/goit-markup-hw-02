@@ -59,15 +59,19 @@ body {
 /*---------*/
 /* addres  */
 
-.addr {
+.addr{
+    font-style: normal;
+}
+
+.addr_a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-.addr:hover,
-.addr:focus {
+.addr_a:hover,
+.addr_a:focus {
     color: #404bbf;
 }
 
