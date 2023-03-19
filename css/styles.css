@@ -12,29 +12,31 @@ body {
 
   font-family: "Roboto", sans-serif;
   color: #434455;
+  background-color: #ffffff;
 }
 /*kpapku*/
-ul {
-  list-style: none;
+.link { 
+    text-decoration: none;
+
 }
-a {
-  text-decoration: none;
+.list {  
+    list-style: none;
+}
+
+.list-menu{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+}
+
+.list-menu:hover{
+    color: #404bbf ;
 }
 
 .heden-s {
   color: #2e2f42;
-}
-.headen-logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  margin: 0;
 }
 /*studio portfolio contacts*/
 
