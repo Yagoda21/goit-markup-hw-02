@@ -1,9 +1,18 @@
-body {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background: #ffffff;
+:root{
+--main-hero-color:#2e2f42;
+--main-text-color:#434455;
+--main-background-color: #ffffff;
 }
 
+
+
+
+
+body {
+
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+}
 /*kpapku*/
 ul {
   list-style: none;
@@ -13,26 +22,18 @@ a {
 }
 
 .heden-s {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 .headen-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
   margin: 0;
 }
 /*studio portfolio contacts*/
@@ -220,12 +221,5 @@ a {
   background: #2e2f42;
 }
 .head-log {
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.16;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #f4f4fd;
 }
